@@ -23,8 +23,6 @@ dependencies {
 
 Instantiate and call the API:
 ```kotlin
-import com.github.imeszaros.wledkotlin.domain.State
-
 fun main() {
     val client = WLEDClient("ip address or hostname of of WLED device")
 
