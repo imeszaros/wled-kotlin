@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.github.imeszaros'
-version '0.1'
+version '0.4'
 
 repositories {
     mavenCentral()
@@ -27,4 +27,12 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-jackson:2.9.0"
     implementation "com.squareup.retrofit2:adapter-rxjava2:2.9.0"
     implementation "com.google.code.findbugs:jsr305:3.0.2"
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.kotlin
+        }
+    }
 }
