@@ -20,7 +20,8 @@ allprojects {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.10"
     implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.12.3"
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
     implementation "com.squareup.retrofit2:converter-jackson:2.9.0"

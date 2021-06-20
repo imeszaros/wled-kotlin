@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonValue
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
 import com.github.imeszaros.wledkotlin.serialization.*
-import io.github.imeszaros.wledkotlin.serialization.*
 
 @WLEDDSL
 data class State(
