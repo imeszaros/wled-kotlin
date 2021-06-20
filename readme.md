@@ -17,7 +17,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.imeszaros:wled-kotlin:v0.1'
+    implementation 'com.github.imeszaros:wled-kotlin:v0.2'
 }
 ```
 
