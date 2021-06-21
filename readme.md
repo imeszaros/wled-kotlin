@@ -32,7 +32,7 @@ fun main() {
                 primary = Color(255, 0, 0)
             }
         }
-    }
+    }.subscribe()
 }
 ```
 
