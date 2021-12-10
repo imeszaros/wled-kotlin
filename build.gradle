@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.github.imeszaros'
-version '0.4'
+version '0.6'
 
 repositories {
     mavenCentral()
